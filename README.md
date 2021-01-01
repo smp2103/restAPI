@@ -1,4 +1,4 @@
-직접 만들어보는 REST API 모듈
+직접 만들어보는 AJAX CONTROLLER
 ==========================
 
 사용법
@@ -19,7 +19,7 @@ define(['rest'],function(rest){
     const rest = new rest();
     
     // sample callback function
-    
+
     const cb = function (response) {
         response.then(res => res.json())
                 .then(data => console.log(data))
